@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BitWiseCoord",
+            "request": "launch",
+            "mainClass": "BitWiseCoord",
+            "projectName": "src_dc364f63"
+        }
+    ]
+}
