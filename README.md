@@ -59,6 +59,9 @@ $ jar cevf Crypt Crypt.jar Crypt.class
 ```
 #### Förklaring av flaggor
 c - Create, för att skapa en JAR
+
 e - Default Class, pekar till vilken klass som är main. Behövs om man saknar manifest.
+
 v - Verbose
+
 f - File name, Namnet av JARen
