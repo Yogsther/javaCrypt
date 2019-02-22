@@ -13,9 +13,13 @@
 
 public class BitWiseCoord {
     short coordinate;
+    byte x, y;
 
     public BitWiseCoord(int x, int y) {
+        this.x = (byte) x;        
+        this.y = (byte) y;
         
+        short value = (short)((this.x<<8) | this.y);
     }
 
     // Sätt x-koordinaten

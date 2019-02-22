@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - crypt",
+            "request": "launch",
+            "mainClass": "crypt",
+            "projectName": "src_dc364f63"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - fileCopy",
+            "request": "launch",
+            "mainClass": "fileCopy",
+            "projectName": "src_dc364f63"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - BitWiseCoord",
             "request": "launch",
             "mainClass": "BitWiseCoord",
