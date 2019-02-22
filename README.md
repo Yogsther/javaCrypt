@@ -5,8 +5,8 @@ Java Crypt kan kryptera eller dekryptera ett textmeddelande sparat i en fil med 
 ## Innehållsförteckning
 1. [Syfte](#Syfte)
 2. [Koden](#Koden)
-3. [X-OR-CAST](#X-OR-CAST)
-4. [För att köra](#För)
+3. [X-OR-CAST](#x-or-cast)
+4. [För att köra](#för-att-köra)
 
 
 ## Syfte
