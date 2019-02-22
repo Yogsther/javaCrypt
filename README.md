@@ -33,7 +33,12 @@ Metoden encryt() tar in meddelandet och nyckeln. Efter den koverterat om dem til
 Gå till [Releases](https://github.com/Yogsther/javaCrypt/releases) och 
 ladda ned den senaste .JAR filen, eller bygg ```Crypt.java``` som finns i ```/src```
 
-### Kör
+### Kör (JAR)
+```
+$ java -jar Crypt.jar message_dir key_dir [output_dir]
+```
+
+### Kör (Class)
 ```
 $ java Crypt message_dir key_dir [output_dir]
 ```

@@ -77,7 +77,7 @@ public class Crypt {
             }
         } else {
             // TODO: Ask for inputs in terminal
-            System.out.println("Usage: java Crypt message_dir key_dir [output_dir]");
+            System.out.println("Usage: java -jar Crypt.jar message_dir key_dir [output_dir]");
             return;
         }
     }
