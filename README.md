@@ -7,6 +7,7 @@ Java Crypt kan kryptera eller dekryptera ett textmeddelande sparat i en fil med 
 2. [Koden](#Koden)
 3. [X-OR-CAST](#x-or-cast)
 4. [För att köra](#för-att-köra)
+5. [För att bygga JAR](#för-att-bygga-jar)
 
 
 ## Syfte
@@ -46,3 +47,18 @@ $ java Crypt message_dir key_dir [output_dir]
 Standard output är ```output.txt```
 
 
+## För att bygga JAR
+Först bygg klassen
+```
+$ javac Crypt.class
+```
+
+Sedan bygg JARen
+```
+$ jar cevf Crypt Crypt.jar Crypt.class
+```
+#### Förklaring av flaggor
+c - Create, för att skapa en JAR
+e - Default Class, pekar till vilken klass som är main. Behövs om man saknar manifest.
+v - Verbose
+f - File name, Namnet av JARen
