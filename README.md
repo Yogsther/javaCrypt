@@ -8,7 +8,7 @@ Java Crypt kan kryptera eller dekryptera ett textmeddelande sparat i en fil med 
 3. [X-OR-CAST](#x-or-cast)
 4. [För att köra](#för-att-köra)
 5. [För att bygga JAR](#för-att-bygga-jar)
-6. [JavaDoc](#javadoc)
+6. [JavaDoc](https://yogsther.github.io/javaCrypt/)
 
 
 ## Syfte
@@ -66,7 +66,3 @@ e - Default Class, pekar till vilken klass som är main. Behövs om man saknar m
 v - Verbose
 
 f - File name, Namnet av JARen
-
-## JavaDoc
-
-Clicka här för att gå till JavaDoc
